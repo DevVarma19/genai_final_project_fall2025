@@ -1,0 +1,7 @@
+{
+  "image_path": "istockphoto-833503586-170667a.jpg",
+  "prompt": "a cat wearing sunglasses",
+  "template": "Does this figure show \"{}\"? Please answer yes or no.",
+  "VQAScore": 0.756232982415443,
+  "CLIPScore": 0.3301818370819092
+}

@@ -1,0 +1,7 @@
+{
+  "templates": [
+    "Does this figure show \"{}\"? Please answer yes or no.",
+    "Is there \"{}\" in this image? Please answer yes or no.",
+    "Does the photo depict \"{}\"? Please answer yes or no."
+  ]
+}
