@@ -11,7 +11,7 @@ Our implementation extends the paper with improved scoring logic, stronger CLIP 
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This repository contains an end-to-end pipeline for:
 
@@ -28,7 +28,7 @@ This repository contains an end-to-end pipeline for:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 
@@ -60,7 +60,7 @@ This repository contains an end-to-end pipeline for:
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 ### **Image Generation**
 
@@ -70,7 +70,7 @@ This repository contains an end-to-end pipeline for:
 
 ---
 
-## 🧠 Evaluation Metrics
+## Evaluation Metrics
 
 ### **1. VQAScore (Corrected Implementation)**
 
@@ -88,7 +88,7 @@ with a more rigorous probability formulation:
 - Apply **softmax over the two logits**
 - Final score = **P(Yes | image, question)** ∈ [0, 1]
 
-👉 This matches the DeepMind paper’s intended behavior and produces realistic, interpretable scores.
+  This matches the DeepMind paper’s intended behavior and produces realistic, interpretable scores.
 
 ### **2. CLIPScore (Upgraded)**
 
@@ -98,7 +98,7 @@ with a more rigorous probability formulation:
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 ### **Global Findings**
 
@@ -125,11 +125,11 @@ negation 0.11
 
 ```
 
-👉 Negation is the hardest semantic challenge for CLIP-based metrics.
+  Negation is the hardest semantic challenge for CLIP-based metrics.
 
 ---
 
-## 🧪 Representative Plots (saved under `results/plots/`)
+## Representative Plots (saved under `results/plots/`)
 
 - Global score distributions
 - VQAScore vs CLIPScore scatter
@@ -139,7 +139,7 @@ negation 0.11
 
 ---
 
-## 🎛 Interactive Demo (Phase 6)
+## Interactive Demo (Phase 6)
 
 The notebook `06_demo_app.ipynb` allows:
 
@@ -154,7 +154,7 @@ Perfect for presentations and qualitative exploration.
 
 ---
 
-## 🧩 Key Takeaways
+##  Key Takeaways
 
 - **High VQAScore** → strong semantic agreement with the prompt
 - **Moderate CLIPScore** → loose embedding similarity but not correctness
@@ -164,7 +164,7 @@ Perfect for presentations and qualitative exploration.
 
 ---
 
-## ⚙️ Compute Requirements
+##  Compute Requirements
 
 - Google Colab Pro (A100 or L4)
 - Works with manual batch sizing for large runs
@@ -172,7 +172,7 @@ Perfect for presentations and qualitative exploration.
 
 ---
 
-## 📘 References
+##  References
 
 - VQAScore Paper: https://arxiv.org/abs/2404.01291
 - GenAI-Bench Dataset: https://huggingface.co/datasets/BaiqiL/GenAI-Bench
